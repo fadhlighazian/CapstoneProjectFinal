@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3F8B3E26A14EAE0095E46A /* CapstoneProjectFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F8B3D26A14EAE0095E46A /* CapstoneProjectFinalTests.swift */; };
 		6B0C2C822615EEF8007C8199 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0C2C812615EEF8007C8199 /* DetailView.swift */; };
 		6B0C2C892615F2C8007C8199 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0C2C882615F2C8007C8199 /* HomeRouter.swift */; };
 		6B0C2C8E2615F318007C8199 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0C2C8D2615F318007C8199 /* DetailPresenter.swift */; };
@@ -43,7 +44,20 @@
 		6B911BCB2613772F00F88580 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B911BCA2613772F00F88580 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2A3F8B4026A14EAE0095E46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B911B44261357FA00F88580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B911B4B261357FA00F88580;
+			remoteInfo = CapstoneProjectFinal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2A3F8B3B26A14EAE0095E46A /* CapstoneProjectFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3F8B3D26A14EAE0095E46A /* CapstoneProjectFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectFinalTests.swift; sourceTree = "<group>"; };
+		2A3F8B3F26A14EAE0095E46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B0C2C812615EEF8007C8199 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6B0C2C882615F2C8007C8199 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		6B0C2C8D2615F318007C8199 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
@@ -79,6 +93,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A3F8B3826A14EAE0095E46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B911B49261357FA00F88580 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3F8B3C26A14EAE0095E46A /* CapstoneProjectFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3F8B3D26A14EAE0095E46A /* CapstoneProjectFinalTests.swift */,
+				2A3F8B3F26A14EAE0095E46A /* Info.plist */,
+			);
+			path = CapstoneProjectFinalTests;
+			sourceTree = "<group>";
+		};
 		6B0C2C7A2615EECC007C8199 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				6B911B4E261357FA00F88580 /* CapstoneProjectFinal */,
+				2A3F8B3C26A14EAE0095E46A /* CapstoneProjectFinalTests */,
 				6B911B4D261357FA00F88580 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				6B911B4C261357FA00F88580 /* CapstoneProjectFinal.app */,
+				2A3F8B3B26A14EAE0095E46A /* CapstoneProjectFinalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -414,6 +446,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2A3F8B3A26A14EAE0095E46A /* CapstoneProjectFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3F8B4226A14EAE0095E46A /* Build configuration list for PBXNativeTarget "CapstoneProjectFinalTests" */;
+			buildPhases = (
+				2A3F8B3726A14EAE0095E46A /* Sources */,
+				2A3F8B3826A14EAE0095E46A /* Frameworks */,
+				2A3F8B3926A14EAE0095E46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3F8B4126A14EAE0095E46A /* PBXTargetDependency */,
+			);
+			name = CapstoneProjectFinalTests;
+			productName = CapstoneProjectFinalTests;
+			productReference = 2A3F8B3B26A14EAE0095E46A /* CapstoneProjectFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6B911B4B261357FA00F88580 /* CapstoneProjectFinal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B911B602613580400F88580 /* Build configuration list for PBXNativeTarget "CapstoneProjectFinal" */;
@@ -443,9 +493,13 @@
 		6B911B44261357FA00F88580 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					2A3F8B3A26A14EAE0095E46A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6B911B4B261357FA00F88580;
+					};
 					6B911B4B261357FA00F88580 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -470,11 +524,19 @@
 			projectRoot = "";
 			targets = (
 				6B911B4B261357FA00F88580 /* CapstoneProjectFinal */,
+				2A3F8B3A26A14EAE0095E46A /* CapstoneProjectFinalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A3F8B3926A14EAE0095E46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B911B4A261357FA00F88580 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +550,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A3F8B3726A14EAE0095E46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3F8B3E26A14EAE0095E46A /* CapstoneProjectFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B911B48261357FA00F88580 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,6 +594,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2A3F8B4126A14EAE0095E46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B911B4B261357FA00F88580 /* CapstoneProjectFinal */;
+			targetProxy = 2A3F8B4026A14EAE0095E46A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		6B911B5A2613580400F88580 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -536,6 +614,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2A3F8B4326A14EAE0095E46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapstoneProjectFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.CapstoneProjectFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneProjectFinal.app/CapstoneProjectFinal";
+			};
+			name = Debug;
+		};
+		2A3F8B4426A14EAE0095E46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapstoneProjectFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.CapstoneProjectFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneProjectFinal.app/CapstoneProjectFinal";
+			};
+			name = Release;
+		};
 		6B911B5E2613580400F88580 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -697,6 +815,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A3F8B4226A14EAE0095E46A /* Build configuration list for PBXNativeTarget "CapstoneProjectFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3F8B4326A14EAE0095E46A /* Debug */,
+				2A3F8B4426A14EAE0095E46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6B911B47261357FA00F88580 /* Build configuration list for PBXProject "CapstoneProjectFinal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
